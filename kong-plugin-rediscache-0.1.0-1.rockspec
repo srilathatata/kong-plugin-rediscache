@@ -12,7 +12,7 @@ local pluginName = package:match("^kong%-plugin%-(.+)$")  -- "myPlugin"
 supported_platforms = {"linux", "macosx"}
 source = {
   -- these are initially not required to make it work
-  url = "git://github.com/Mashape/kong_plugin",
+  url = "git://github.com/srilathatata/kong-plugin-rediscache",
   tag = "0.1.0"
 }
 
